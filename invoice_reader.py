@@ -8,8 +8,8 @@ import pytesseract
 
 from invoice_extract import extract_invoice_number_ceva, extract_total_amount_ceva, extract_invoice_number_dhl, extract_total_amount_dhl, extract_invoice_number_msk, extract_total_amount_msk, get_lsp
 
-POPPLER_PATH = "./Support/poppler-24.02.0/Library/bin"
-TESSERACT_PATH = "./Support/Tesseract-OCR/tesseract.exe"
+POPPLER_PATH = "../Support/poppler-24.02.0/Library/bin"
+TESSERACT_PATH = "../Support/Tesseract-OCR/tesseract.exe"
 
 def pdf_to_images(pdf_path, max_pages=3, poppler_path=None):
     if poppler_path:
