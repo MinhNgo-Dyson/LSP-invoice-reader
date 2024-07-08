@@ -1,8 +1,6 @@
-POPPLER_PATH = "../Support/poppler-24.02.0/Library/bin"
-TESSERACT_PATH = "../Support/Tesseract-OCR/tesseract.exe"
-
 import os
 from datetime import datetime
+import time
 
 import pandas as pd
 from pdf2image import convert_from_path
@@ -10,11 +8,14 @@ import pytesseract
 
 from invoice_extract import extract_invoice_number_ceva, extract_total_amount_ceva, extract_invoice_number_dhl, extract_total_amount_dhl, extract_invoice_number_msk, extract_total_amount_msk, get_lsp
 
-def pdf_to_images(pdf_path, poppler_path=None):
+POPPLER_PATH = "./Support/poppler-24.02.0/Library/bin"
+TESSERACT_PATH = "./Support/Tesseract-OCR/tesseract.exe"
+
+def pdf_to_images(pdf_path, max_pages=3, poppler_path=None):
     if poppler_path:
-        images = convert_from_path(pdf_path, poppler_path=poppler_path)
+        images = convert_from_path(pdf_path, first_page=1, last_page=max_pages, poppler_path=poppler_path)
     else:
-        images = convert_from_path(pdf_path)
+        images = convert_from_path(pdf_path, first_page=1, last_page=max_pages)
     return images
 
 def ocr_image(image, tesseract_path=None):
@@ -30,7 +31,7 @@ def preprocess_text(text):
     return lines
 
 def process_invoice(pdf_path, poppler_path=None, tesseract_path=None):
-    images = pdf_to_images(pdf_path, poppler_path)
+    images = pdf_to_images(pdf_path, 3, poppler_path)
     text = ''.join([ocr_image(image, tesseract_path) for image in images])
     lines = preprocess_text(text)
     lsp = get_lsp(lines)
@@ -75,11 +76,17 @@ def export_to_excel(results, output_folder_path):
     return None
 
 if __name__ == "__main__":
-    import sys
     try:
         folder_path = input("What is the invoice folder?").replace("\"", "").replace("\'", "")
+        # Start the timer
+        start_time = time.time()
         print("Processing invoices ...")
         results = process_invoices_in_folder(folder_path, POPPLER_PATH, TESSERACT_PATH)
+        # End the timer
+        end_time = time.time()
+
+        elapsed_time = end_time - start_time
+        print(f"The code took {elapsed_time:.4f} seconds to run.")
         
         output_folder_path = input("What is the export folder?").replace("\"", "").replace("\'", "")
         export_to_excel(results, output_folder_path)
@@ -88,4 +95,4 @@ if __name__ == "__main__":
         print(f"An error occurred: {e}")
     finally:
         input("Press Enter to exit...")
-
+        
