@@ -5,7 +5,6 @@ import time
 import pandas as pd
 from pdf2image import convert_from_path
 import pytesseract
-import traceback
 
 from invoice_extract import extract_invoice_number_ceva, extract_total_amount_ceva, extract_invoice_number_dhl, extract_total_amount_dhl, extract_invoice_number_msk, extract_total_amount_msk, get_lsp
 
@@ -116,6 +115,7 @@ if __name__ == "__main__":
         export_to_excel(results, output_folder_path)
         print("Exporting invoices ...")
     except Exception as e:
-        traceback.print_exc() 
+        # traceback.print_exc() 
+        print(e)
     finally:
         input("Press Enter to exit...")
