@@ -631,6 +631,7 @@
    'C:\\Users\\cngo\\OneDrive - '
    'Dyson\\Desktop\\Github\\LSP-invoice-reader\\LSP-invoice-reader\\venv\\lib\\site-packages\\et_xmlfile\\xmlfile.py',
    'PYMODULE'),
+  ('fileinput', 'C:\\Program Files\\Python39\\lib\\fileinput.py', 'PYMODULE'),
   ('fnmatch', 'C:\\Program Files\\Python39\\lib\\fnmatch.py', 'PYMODULE'),
   ('fractions', 'C:\\Program Files\\Python39\\lib\\fractions.py', 'PYMODULE'),
   ('ftplib', 'C:\\Program Files\\Python39\\lib\\ftplib.py', 'PYMODULE'),
@@ -977,6 +978,86 @@
    'C:\\Users\\cngo\\OneDrive - '
    'Dyson\\Desktop\\Github\\LSP-invoice-reader\\LSP-invoice-reader\\venv\\lib\\site-packages\\numpy\\exceptions.py',
    'PYMODULE'),
+  ('numpy.f2py',
+   'C:\\Users\\cngo\\OneDrive - '
+   'Dyson\\Desktop\\Github\\LSP-invoice-reader\\LSP-invoice-reader\\venv\\lib\\site-packages\\numpy\\f2py\\__init__.py',
+   'PYMODULE'),
+  ('numpy.f2py.__version__',
+   'C:\\Users\\cngo\\OneDrive - '
+   'Dyson\\Desktop\\Github\\LSP-invoice-reader\\LSP-invoice-reader\\venv\\lib\\site-packages\\numpy\\f2py\\__version__.py',
+   'PYMODULE'),
+  ('numpy.f2py._backends',
+   'C:\\Users\\cngo\\OneDrive - '
+   'Dyson\\Desktop\\Github\\LSP-invoice-reader\\LSP-invoice-reader\\venv\\lib\\site-packages\\numpy\\f2py\\_backends\\__init__.py',
+   'PYMODULE'),
+  ('numpy.f2py._backends._backend',
+   'C:\\Users\\cngo\\OneDrive - '
+   'Dyson\\Desktop\\Github\\LSP-invoice-reader\\LSP-invoice-reader\\venv\\lib\\site-packages\\numpy\\f2py\\_backends\\_backend.py',
+   'PYMODULE'),
+  ('numpy.f2py._backends._distutils',
+   'C:\\Users\\cngo\\OneDrive - '
+   'Dyson\\Desktop\\Github\\LSP-invoice-reader\\LSP-invoice-reader\\venv\\lib\\site-packages\\numpy\\f2py\\_backends\\_distutils.py',
+   'PYMODULE'),
+  ('numpy.f2py._backends._meson',
+   'C:\\Users\\cngo\\OneDrive - '
+   'Dyson\\Desktop\\Github\\LSP-invoice-reader\\LSP-invoice-reader\\venv\\lib\\site-packages\\numpy\\f2py\\_backends\\_meson.py',
+   'PYMODULE'),
+  ('numpy.f2py._isocbind',
+   'C:\\Users\\cngo\\OneDrive - '
+   'Dyson\\Desktop\\Github\\LSP-invoice-reader\\LSP-invoice-reader\\venv\\lib\\site-packages\\numpy\\f2py\\_isocbind.py',
+   'PYMODULE'),
+  ('numpy.f2py.auxfuncs',
+   'C:\\Users\\cngo\\OneDrive - '
+   'Dyson\\Desktop\\Github\\LSP-invoice-reader\\LSP-invoice-reader\\venv\\lib\\site-packages\\numpy\\f2py\\auxfuncs.py',
+   'PYMODULE'),
+  ('numpy.f2py.capi_maps',
+   'C:\\Users\\cngo\\OneDrive - '
+   'Dyson\\Desktop\\Github\\LSP-invoice-reader\\LSP-invoice-reader\\venv\\lib\\site-packages\\numpy\\f2py\\capi_maps.py',
+   'PYMODULE'),
+  ('numpy.f2py.cb_rules',
+   'C:\\Users\\cngo\\OneDrive - '
+   'Dyson\\Desktop\\Github\\LSP-invoice-reader\\LSP-invoice-reader\\venv\\lib\\site-packages\\numpy\\f2py\\cb_rules.py',
+   'PYMODULE'),
+  ('numpy.f2py.cfuncs',
+   'C:\\Users\\cngo\\OneDrive - '
+   'Dyson\\Desktop\\Github\\LSP-invoice-reader\\LSP-invoice-reader\\venv\\lib\\site-packages\\numpy\\f2py\\cfuncs.py',
+   'PYMODULE'),
+  ('numpy.f2py.common_rules',
+   'C:\\Users\\cngo\\OneDrive - '
+   'Dyson\\Desktop\\Github\\LSP-invoice-reader\\LSP-invoice-reader\\venv\\lib\\site-packages\\numpy\\f2py\\common_rules.py',
+   'PYMODULE'),
+  ('numpy.f2py.crackfortran',
+   'C:\\Users\\cngo\\OneDrive - '
+   'Dyson\\Desktop\\Github\\LSP-invoice-reader\\LSP-invoice-reader\\venv\\lib\\site-packages\\numpy\\f2py\\crackfortran.py',
+   'PYMODULE'),
+  ('numpy.f2py.diagnose',
+   'C:\\Users\\cngo\\OneDrive - '
+   'Dyson\\Desktop\\Github\\LSP-invoice-reader\\LSP-invoice-reader\\venv\\lib\\site-packages\\numpy\\f2py\\diagnose.py',
+   'PYMODULE'),
+  ('numpy.f2py.f2py2e',
+   'C:\\Users\\cngo\\OneDrive - '
+   'Dyson\\Desktop\\Github\\LSP-invoice-reader\\LSP-invoice-reader\\venv\\lib\\site-packages\\numpy\\f2py\\f2py2e.py',
+   'PYMODULE'),
+  ('numpy.f2py.f90mod_rules',
+   'C:\\Users\\cngo\\OneDrive - '
+   'Dyson\\Desktop\\Github\\LSP-invoice-reader\\LSP-invoice-reader\\venv\\lib\\site-packages\\numpy\\f2py\\f90mod_rules.py',
+   'PYMODULE'),
+  ('numpy.f2py.func2subr',
+   'C:\\Users\\cngo\\OneDrive - '
+   'Dyson\\Desktop\\Github\\LSP-invoice-reader\\LSP-invoice-reader\\venv\\lib\\site-packages\\numpy\\f2py\\func2subr.py',
+   'PYMODULE'),
+  ('numpy.f2py.rules',
+   'C:\\Users\\cngo\\OneDrive - '
+   'Dyson\\Desktop\\Github\\LSP-invoice-reader\\LSP-invoice-reader\\venv\\lib\\site-packages\\numpy\\f2py\\rules.py',
+   'PYMODULE'),
+  ('numpy.f2py.symbolic',
+   'C:\\Users\\cngo\\OneDrive - '
+   'Dyson\\Desktop\\Github\\LSP-invoice-reader\\LSP-invoice-reader\\venv\\lib\\site-packages\\numpy\\f2py\\symbolic.py',
+   'PYMODULE'),
+  ('numpy.f2py.use_rules',
+   'C:\\Users\\cngo\\OneDrive - '
+   'Dyson\\Desktop\\Github\\LSP-invoice-reader\\LSP-invoice-reader\\venv\\lib\\site-packages\\numpy\\f2py\\use_rules.py',
+   'PYMODULE'),
   ('numpy.fft',
    'C:\\Users\\cngo\\OneDrive - '
    'Dyson\\Desktop\\Github\\LSP-invoice-reader\\LSP-invoice-reader\\venv\\lib\\site-packages\\numpy\\fft\\__init__.py',
@@ -1072,6 +1153,10 @@
   ('numpy.lib._utils_impl',
    'C:\\Users\\cngo\\OneDrive - '
    'Dyson\\Desktop\\Github\\LSP-invoice-reader\\LSP-invoice-reader\\venv\\lib\\site-packages\\numpy\\lib\\_utils_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._version',
+   'C:\\Users\\cngo\\OneDrive - '
+   'Dyson\\Desktop\\Github\\LSP-invoice-reader\\LSP-invoice-reader\\venv\\lib\\site-packages\\numpy\\lib\\_version.py',
    'PYMODULE'),
   ('numpy.lib.array_utils',
    'C:\\Users\\cngo\\OneDrive - '
@@ -2447,6 +2532,10 @@
    'C:\\Users\\cngo\\OneDrive - '
    'Dyson\\Desktop\\Github\\LSP-invoice-reader\\LSP-invoice-reader\\venv\\lib\\site-packages\\pandas\\core\\flags.py',
    'PYMODULE'),
+  ('pandas.core.frame',
+   'C:\\Users\\cngo\\OneDrive - '
+   'Dyson\\Desktop\\Github\\LSP-invoice-reader\\LSP-invoice-reader\\venv\\lib\\site-packages\\pandas\\core\\frame.py',
+   'PYMODULE'),
   ('pandas.core.generic',
    'C:\\Users\\cngo\\OneDrive - '
    'Dyson\\Desktop\\Github\\LSP-invoice-reader\\LSP-invoice-reader\\venv\\lib\\site-packages\\pandas\\core\\generic.py',
@@ -2563,6 +2652,18 @@
    'C:\\Users\\cngo\\OneDrive - '
    'Dyson\\Desktop\\Github\\LSP-invoice-reader\\LSP-invoice-reader\\venv\\lib\\site-packages\\pandas\\core\\interchange\\__init__.py',
    'PYMODULE'),
+  ('pandas.core.interchange.buffer',
+   'C:\\Users\\cngo\\OneDrive - '
+   'Dyson\\Desktop\\Github\\LSP-invoice-reader\\LSP-invoice-reader\\venv\\lib\\site-packages\\pandas\\core\\interchange\\buffer.py',
+   'PYMODULE'),
+  ('pandas.core.interchange.column',
+   'C:\\Users\\cngo\\OneDrive - '
+   'Dyson\\Desktop\\Github\\LSP-invoice-reader\\LSP-invoice-reader\\venv\\lib\\site-packages\\pandas\\core\\interchange\\column.py',
+   'PYMODULE'),
+  ('pandas.core.interchange.dataframe',
+   'C:\\Users\\cngo\\OneDrive - '
+   'Dyson\\Desktop\\Github\\LSP-invoice-reader\\LSP-invoice-reader\\venv\\lib\\site-packages\\pandas\\core\\interchange\\dataframe.py',
+   'PYMODULE'),
   ('pandas.core.interchange.dataframe_protocol',
    'C:\\Users\\cngo\\OneDrive - '
    'Dyson\\Desktop\\Github\\LSP-invoice-reader\\LSP-invoice-reader\\venv\\lib\\site-packages\\pandas\\core\\interchange\\dataframe_protocol.py',
@@ -2623,6 +2724,10 @@
    'C:\\Users\\cngo\\OneDrive - '
    'Dyson\\Desktop\\Github\\LSP-invoice-reader\\LSP-invoice-reader\\venv\\lib\\site-packages\\pandas\\core\\methods\\selectn.py',
    'PYMODULE'),
+  ('pandas.core.methods.to_dict',
+   'C:\\Users\\cngo\\OneDrive - '
+   'Dyson\\Desktop\\Github\\LSP-invoice-reader\\LSP-invoice-reader\\venv\\lib\\site-packages\\pandas\\core\\methods\\to_dict.py',
+   'PYMODULE'),
   ('pandas.core.missing',
    'C:\\Users\\cngo\\OneDrive - '
    'Dyson\\Desktop\\Github\\LSP-invoice-reader\\LSP-invoice-reader\\venv\\lib\\site-packages\\pandas\\core\\missing.py',
@@ -2635,9 +2740,33 @@
    'C:\\Users\\cngo\\OneDrive - '
    'Dyson\\Desktop\\Github\\LSP-invoice-reader\\LSP-invoice-reader\\venv\\lib\\site-packages\\pandas\\core\\ops\\__init__.py',
    'PYMODULE'),
+  ('pandas.core.ops.array_ops',
+   'C:\\Users\\cngo\\OneDrive - '
+   'Dyson\\Desktop\\Github\\LSP-invoice-reader\\LSP-invoice-reader\\venv\\lib\\site-packages\\pandas\\core\\ops\\array_ops.py',
+   'PYMODULE'),
+  ('pandas.core.ops.common',
+   'C:\\Users\\cngo\\OneDrive - '
+   'Dyson\\Desktop\\Github\\LSP-invoice-reader\\LSP-invoice-reader\\venv\\lib\\site-packages\\pandas\\core\\ops\\common.py',
+   'PYMODULE'),
+  ('pandas.core.ops.dispatch',
+   'C:\\Users\\cngo\\OneDrive - '
+   'Dyson\\Desktop\\Github\\LSP-invoice-reader\\LSP-invoice-reader\\venv\\lib\\site-packages\\pandas\\core\\ops\\dispatch.py',
+   'PYMODULE'),
+  ('pandas.core.ops.docstrings',
+   'C:\\Users\\cngo\\OneDrive - '
+   'Dyson\\Desktop\\Github\\LSP-invoice-reader\\LSP-invoice-reader\\venv\\lib\\site-packages\\pandas\\core\\ops\\docstrings.py',
+   'PYMODULE'),
   ('pandas.core.ops.invalid',
    'C:\\Users\\cngo\\OneDrive - '
    'Dyson\\Desktop\\Github\\LSP-invoice-reader\\LSP-invoice-reader\\venv\\lib\\site-packages\\pandas\\core\\ops\\invalid.py',
+   'PYMODULE'),
+  ('pandas.core.ops.mask_ops',
+   'C:\\Users\\cngo\\OneDrive - '
+   'Dyson\\Desktop\\Github\\LSP-invoice-reader\\LSP-invoice-reader\\venv\\lib\\site-packages\\pandas\\core\\ops\\mask_ops.py',
+   'PYMODULE'),
+  ('pandas.core.ops.missing',
+   'C:\\Users\\cngo\\OneDrive - '
+   'Dyson\\Desktop\\Github\\LSP-invoice-reader\\LSP-invoice-reader\\venv\\lib\\site-packages\\pandas\\core\\ops\\missing.py',
    'PYMODULE'),
   ('pandas.core.resample',
    'C:\\Users\\cngo\\OneDrive - '
@@ -2906,6 +3035,10 @@
   ('pandas.io.formats.style_render',
    'C:\\Users\\cngo\\OneDrive - '
    'Dyson\\Desktop\\Github\\LSP-invoice-reader\\LSP-invoice-reader\\venv\\lib\\site-packages\\pandas\\io\\formats\\style_render.py',
+   'PYMODULE'),
+  ('pandas.io.formats.xml',
+   'C:\\Users\\cngo\\OneDrive - '
+   'Dyson\\Desktop\\Github\\LSP-invoice-reader\\LSP-invoice-reader\\venv\\lib\\site-packages\\pandas\\io\\formats\\xml.py',
    'PYMODULE'),
   ('pandas.io.gbq',
    'C:\\Users\\cngo\\OneDrive - '
@@ -3296,6 +3429,30 @@
   ('uuid', 'C:\\Program Files\\Python39\\lib\\uuid.py', 'PYMODULE'),
   ('webbrowser', 'C:\\Program Files\\Python39\\lib\\webbrowser.py', 'PYMODULE'),
   ('xml', 'C:\\Program Files\\Python39\\lib\\xml\\__init__.py', 'PYMODULE'),
+  ('xml.dom',
+   'C:\\Program Files\\Python39\\lib\\xml\\dom\\__init__.py',
+   'PYMODULE'),
+  ('xml.dom.NodeFilter',
+   'C:\\Program Files\\Python39\\lib\\xml\\dom\\NodeFilter.py',
+   'PYMODULE'),
+  ('xml.dom.domreg',
+   'C:\\Program Files\\Python39\\lib\\xml\\dom\\domreg.py',
+   'PYMODULE'),
+  ('xml.dom.expatbuilder',
+   'C:\\Program Files\\Python39\\lib\\xml\\dom\\expatbuilder.py',
+   'PYMODULE'),
+  ('xml.dom.minicompat',
+   'C:\\Program Files\\Python39\\lib\\xml\\dom\\minicompat.py',
+   'PYMODULE'),
+  ('xml.dom.minidom',
+   'C:\\Program Files\\Python39\\lib\\xml\\dom\\minidom.py',
+   'PYMODULE'),
+  ('xml.dom.pulldom',
+   'C:\\Program Files\\Python39\\lib\\xml\\dom\\pulldom.py',
+   'PYMODULE'),
+  ('xml.dom.xmlbuilder',
+   'C:\\Program Files\\Python39\\lib\\xml\\dom\\xmlbuilder.py',
+   'PYMODULE'),
   ('xml.etree',
    'C:\\Program Files\\Python39\\lib\\xml\\etree\\__init__.py',
    'PYMODULE'),

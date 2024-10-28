@@ -85,7 +85,7 @@
  [],
  False,
  False,
- 1730104551,
+ 1730105259,
  [('run.exe',
    'C:\\Users\\cngo\\OneDrive - '
    'Dyson\\Desktop\\Github\\LSP-invoice-reader\\LSP-invoice-reader\\venv\\lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit-intel\\run.exe',
