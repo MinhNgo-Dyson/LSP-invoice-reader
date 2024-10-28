@@ -21,6 +21,7 @@ def get_lsp(lines):
 
 
 def extract_invoice_number_ceva(lines):
+    invoice_number = "Unknown"
     for i, line in enumerate(lines):
         if re.search(r'INVOICE NUMBER', line, re.I):
             # Check the next line for the invoice number
@@ -61,6 +62,7 @@ def extract_total_amount_ceva(lines):
 
 
 def extract_invoice_number_dhl(lines):
+    invoice_number = "Unknown"
     for line in lines:
         match = re.search(r'INVOICE (W\d+)', line, re.I)
         if match:
@@ -92,6 +94,7 @@ def extract_total_amount_dhl(lines):
 
 
 def extract_invoice_number_msk(lines):
+    invoice_number = "Unknown"
     for line in lines:
         match = re.search(r'InvoiceNumber(\d+)', line.replace(" ", ""), re.I)
         if match:
